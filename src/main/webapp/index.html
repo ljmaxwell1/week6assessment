@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Genealogy Website Program</title>
+</head>
+<body>
+	<h1>Welcome to the Genealogy Website Database, created by Larry Maxwell 2/14/2022</h1>
+	<br>
+	<form action="AddItemServlet" method="post">
+		Family Name: <input type="text" name="store">
+		Given Name: <input type="text" name="item">
+		<input type="submit" value="Add Name">
+	</form> <br />
+	<button type="button"  onclick="location.href='ViewAllItemsServlet';">View the listing of names in the database!</button>
+	<a href="ViewAllListsServlet">View All Children lists</a> <br />
+	<a href="AddItemsForListServlet">Create a new list</a>
+</body>
+</html>
